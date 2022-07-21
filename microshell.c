@@ -6,7 +6,7 @@
 /*   By: aymoulou <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/19 11:24:53 by aymoulou          #+#    #+#             */
-/*   Updated: 2022/02/19 11:26:01 by aymoulou         ###   ########.fr       */
+/*   Updated: 2022/07/21 17:54:49 by macbook          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,7 @@ int execute(char **argv, char **envp, int i)
 
 int main(int argc, char *argv[], char *envp[])
 {
+    (void)(argc);
     int r;
     int i = 0;
     tmp = dup(0);
